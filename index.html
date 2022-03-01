@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tic_tac_toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="title">
+            <h1>Tic-Tac-Toe</h1>
+        </div>
+        <div id="topContainer">
+            <div id="user_info">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Username" value="">
+                <button id="Username" type="submit">Submit</button>
+            </div>
+            <h3>Pick A Mark</h3>
+            <div id="UI_decide">
+                <div id="x_decision">
+                    <div id=xMark_img>X</div>
+                    <input type="radio" name="action" id="xMark" value=0>
+                    <label for = "xMark"></label>
+                </div>
+                <div id="o_decision">
+                    <div id=oMark_img>O</div>
+                    <input type="radio" name="action" id="oMark" value=1>
+                    <label for = "yMark"></label>
+                </div>
+
+            </div>
+        </div>
+        <div id="bottomContainer">
+            <h2 id="header">Welcome Player</h2>
+            <h3 id="turnBase">Player</h3>
+            <div id="gameBoard">
+                <div class="cells" id=1 data-cell></div>
+                <div class="cells" id=2 data-cell></div>
+                <div class="cells" id=3 data-cell></div>
+                <div class="cells" id=4 data-cell></div>
+                <div class="cells" id=5 data-cell></div>
+                <div class="cells" id=6 data-cell></div>
+                <div class="cells" id=7 data-cell></div>
+                <div class="cells" id=8 data-cell></div>
+                <div class="cells" id=9 data-cell></div>
+            </div>
+        </div>
+        <button id="clearAll">Clear</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

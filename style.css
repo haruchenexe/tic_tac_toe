@@ -1,0 +1,100 @@
+body {
+    background-color:rgb(49, 48, 48);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#title {
+    font-size: 50px;
+    font-family: monospace;
+    color: white;
+    margin-bottom: -100px;
+}
+
+h2 {
+    font-size: 56px;
+    font-family: monospace;
+    color: white;
+    margin: -10px 0px -20px 0px;
+}
+
+h3 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: -5px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#topContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 20px 0px;
+    color:rgb(194, 206, 202)
+}
+
+#gameBoard {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, auto);
+}
+
+.cells {
+    align-items: center;
+    background-color:rgb(49, 48, 48);
+    border: 1px solid white;
+    display: flex;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: system-ui;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+
+#UI_decide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style:groove;
+    border-width: 10px;
+    border-color: beige;
+    width: 600px;
+}
+
+#xMark_img, #oMark_img {
+    font-size: 200px;
+    font-family: system-ui;
+    color: white;
+    height: 250px;
+    width: 250px;
+    margin: 25px 0px 0px 0px;
+}
+
+#user_info {
+    margin: 50px 0px 0px 0px;
+}
+
+#input {
+    color: white;
+}
+
+#clearAll {
+    font-size: 26px;
+    color: white;
+    background-color:black;
+    height: 100px;
+    width: 200px;
+    margin-top: 25px;
+}
